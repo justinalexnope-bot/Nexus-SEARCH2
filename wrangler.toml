@@ -1,0 +1,13 @@
+name = "nexus-search"
+main = "src/index.js"
+compatibility_date = "2025-10-22"
+
+# If you’re deploying to Pages instead of Workers:
+[site]
+bucket = "./dist"
+entry-point = "."
+
+# Optional for custom domain
+[env.production]
+route = "ezsnipes.qzz.io/*"
+zone_id = "79f5dcbcc1ddc555d5df5d47f7e53d16"
